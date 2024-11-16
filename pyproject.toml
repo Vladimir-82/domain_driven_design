@@ -8,6 +8,10 @@ packages = [{include = "domain_driven_design"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+SQLAlchemy = "^2.0.36"
+pytest = "^8.3.3"
+flake8 = "^7.1.1"
+isort = "^5.13.2"
 
 
 [build-system]
