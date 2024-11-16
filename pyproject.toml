@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["ukastsiukevich <grun_gespenst@tut.by>"]
 readme = "README.md"
-packages = [{include = "domain_driven_design"}]
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.10"
